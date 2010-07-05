@@ -1,4 +1,4 @@
-# Class: lv
+# Class: userdots::lv
 #
 # This class manages lv
 #
@@ -11,7 +11,7 @@
 # Sample Usage:
 #
 # [Remember: No empty lines between comments and class definition]
-class home::lv {
+class userdots::lv {
   
   package { "lv":
     ensure => installed
